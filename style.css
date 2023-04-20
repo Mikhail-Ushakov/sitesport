@@ -7,8 +7,6 @@
 }   
 body {
     margin: 0px;
-    
-    
 }
 .logo {
     color: rgb(255, 255, 255);
@@ -45,7 +43,7 @@ body {
     /* background-color: #fd4445; */
     width: 80%;
     height: 40%;
-    box-shadow: 0 0 15px 30px #0091cf;
+    box-shadow: 0 0 10px 20px #0091cf;
     border: 0;
 }
 .card > p {
@@ -53,6 +51,20 @@ body {
     font-size: 1.5em;
     text-align: center;
 }
+
+.card-contacts {
+    background-color: #0091cf;
+    width: 80%;
+    height: 60%;
+    box-shadow: 0 0 10px 20px #0091cf;
+    border: 0;
+    position: absolute;
+    top: 25%;
+}
+.section-instruct {
+    height: 200vh;
+}
+
 .bgimg-1:before { 
     content: ''; 
     position: absolute; 
@@ -189,12 +201,12 @@ body {
     transform: rotate(-45deg);
 }
 .lightbox-prev {
-    left: 0;
+    left: -4vw;
     border-left: 5px solid #fd4445;
     border-top:5px solid #fd4445;
 }
 .lightbox-next {
-    right: 0;
+    right: -4vw;
     border-right: 5px solid #fd4445;
     border-bottom:5px solid #fd4445;
 }
